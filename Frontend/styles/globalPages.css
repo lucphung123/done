@@ -1,0 +1,50 @@
+html{
+    /* width: 100vw;*/
+    height: 100vh; 
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans';
+  }
+  
+  .ant-form-item-label >label{
+    color: aqua !important;
+  }
+  
+  .ant-btn-primary {
+    background: #0061af;
+    background-color: #0061af;
+    border: none !important;
+  }
+  
+  .anticon {
+    vertical-align: middle !important;
+    margin-bottom: 3px !important;
+  }
+  
+  .flashing-background{
+    animation: flashing 1s infinite;
+  }
+  
+  @keyframes flashing {
+    0% {
+      background-color: white;
+    }
+    10% {
+      background-color: aqua;
+    }
+    100% {
+      background-color: white;
+    }
+  }
